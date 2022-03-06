@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  transition: 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
+  transition: color 250ms ease-in-out;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .glass-panel {
+    color: #fff;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    border-radius: 15px;
+    padding: 32px;
+    backdrop-filter: blur(10px);
+  }
+
+  .glass-button {
+    display: inline-block;
+    padding: 24px 32px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2em;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 250ms ease-in-out;
+  }
+
+  .glass-button:hover {
+    color: #2b2b2b;
+    background-color: rgba(255, 255, 255, 0.486);
+  }
+}
