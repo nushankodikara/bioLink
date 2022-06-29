@@ -9,7 +9,7 @@
         ><i class="fab fa-facebook" /></a
     >
 
-    <a class="glass-button" target="_blank" href="#"
+    <a class="glass-button" target="_blank" href="https://wa.me/94769477743"
         ><i class="fab fa-whatsapp" /></a
     >
 
