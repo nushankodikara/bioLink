@@ -12,4 +12,4 @@ export default app;
 
 document.getElementsByTagName(
     "body"
-)[0].style.backgroundImage = `url("https://unsplash.com/photos/hPA4hmPBFrQ/download?ixid=MnwxMjA3fDB8MXxhbGx8NDl8fHx8fHwyfHwxNjQ2NjIwMjA2&force=true&w=2400")`;
+)[0].style.backgroundImage = `url("https://unsplash.com/photos/rOUCyx9xxH8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OHx8YnVkZGhpc218ZW58MHx8fHwxNjYyMjU3Njkz&force=true&w=1920")`;

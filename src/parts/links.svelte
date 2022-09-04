@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap:1em;">
     <a
         class="glass-button"

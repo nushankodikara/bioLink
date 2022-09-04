@@ -3,6 +3,7 @@
     import Links from "./parts/links.svelte";
     import Profile from "./parts/profile.svelte";
     import Preloader from "./parts/preloader.svelte";
+    import TopLinks from "./parts/topLinks.svelte";
     import { tsParticles } from "tsparticles/index.js";
 
     let fadeOutEffect = (elementID) => {
@@ -623,13 +624,9 @@
         <Header />
         <div class="container glass-panel">
             <Profile />
-            <hr />
-            <center
-                >Under Construction. Contact Me Below <i
-                    class="fas fa-arrow-circle-down"
-                /></center
-            >
-            <hr />
+            <br />
+            <TopLinks />
+            <br />
             <Links />
         </div>
     </div>
